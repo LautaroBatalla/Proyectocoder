@@ -1,0 +1,255 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-image: linear-gradient(to left bottom, #989898, #a8a9a9, #b8babb, #c7cbcc, #d8dddc, #d9e7e1, #def1e2, #e8f9df, #e4fbd1, #e2fdc1, #e2feaf, #e4ff9d);
+}
+
+.futer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  width: 100%;
+  margin-top: auto;
+  bottom: 0;
+}
+
+.iconoig {
+  font-size: 2.3rem;
+  color: rgb(181, 35, 203);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  transition: color 3s;
+  transition: font-size 1.5s;
+}
+
+.iconoig:hover {
+  font-size: 3rem;
+  color: rgb(139, 5, 133);
+}
+
+header {
+  background-image: url(../assets/img/book-wall-1151405_1920.jpg);
+  position: sticky;
+  z-index: 200;
+  top: 0;
+}
+
+.logo {
+  width: 8%;
+}
+
+.cabezera {
+  position: relative;
+  background-color: rgba(77, 252, 43, 0.7019607843);
+  width: 100%;
+  text-decoration-color: #000000;
+}
+
+main {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../assets/img/pexels-oziel-gómez-2846814.jpg);
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  max-width: 100%;
+}
+
+.image-container img {
+  width: 20rem;
+  height: auto;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .image-container {
+    flex-wrap: wrap;
+  }
+  .image-container img {
+    width: 40%;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+}
+body {
+  font-family: "Titillium Web", sans-serif;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.listaitem1 {
+  display: inline-block;
+  list-style: none;
+  margin: 2px;
+  padding-left: 15px;
+}
+
+.listaitem2 {
+  display: flex;
+  justify-content: left;
+  color: #15ff00;
+}
+
+.mainlibros {
+  background-image: linear-gradient(to right, #000000, #382929, #6c4f46, #9f7c61, #cab07d, #cab07d, #cab07d, #cab07d, #9f7c61, #6c4f46, #382929, #000000);
+  display: flex;
+  flex-wrap: wrap;
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  color: #020101;
+  text-decoration: none;
+  font-weight: bold;
+  min-width: 120px;
+}
+
+.linknavegacion2 {
+  color: rgb(255, 255, 255);
+}
+
+.titulolibros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-image: linear-gradient(to right, #000000, #382929, #6c4f46, #9f7c61, #cab07d, #cab07d, #cab07d, #cab07d, #9f7c61, #6c4f46, #382929, #000000);
+}
+
+.Titulo1 {
+  font-size: 3rem;
+  color: rgb(2, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listadelibros {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.iconex {
+  font-size: 2rem;
+  color: #5ab452;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color 2s;
+  transition: font-size 2s;
+}
+
+.iconex:hover {
+  color: #0ea700;
+  font-size: 2.5rem;
+}
+
+.Listalibrosexcel {
+  background-image: linear-gradient(to right, #000000, #382929, #6c4f46, #9f7c61, #cab07d, #cab07d, #cab07d, #cab07d, #9f7c61, #6c4f46, #382929, #000000);
+}
+
+.listadelibros {
+  text-decoration: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+.nosotroscontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../assets/img/pexels-andrea-piacquadio-3779432.jpg);
+}
+
+.contenidonosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1300px;
+  padding: 0 20px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+@media screen and (min-width: 992px) {
+  .contenidonosotros {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .contenidonosotros {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .contenidonosotros {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+
+.imagennosotros {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.titulonosotros {
+  color: rgb(0, 0, 0);
+}
+
+.textonosotros {
+  color: rgb(173, 114, 3);
+  font-weight: bold;
+}
+
+.maineditoriales {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(209, 115, 0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.maincontacto {
+  background-image: linear-gradient(to right, #b8f6b1, #b2f8a7, #acf99d, #a6fb92, #a0fc87, #9afc82, #94fd7c, #8dfd77, #85fc77, #7cfb77, #72fa77, #68f977);
+}/*# sourceMappingURL=base.css.map */

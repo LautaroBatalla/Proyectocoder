@@ -1,0 +1,52 @@
+.listaitem1{display: inline-block; list-style: none; margin: 2px ; padding-left: 15px;}
+  
+    .listaitem2{display: flex;
+justify-content: left;
+color: #15ff00;
+}
+
+
+.mainlibros{background-image: $gradiant;
+         
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    color: #020101;
+    text-decoration: none;
+    font-weight: bold;
+    min-width: 120px;}
+    
+    .linknavegacion2 {color: rgb(255, 255, 255);}
+    .titulolibros { 
+      
+        @include flexbox (center,center,row); 
+        
+       background-image: $gradiant;}
+    
+       .Titulo1 {font-size: 3rem;color: rgb(2, 0, 0);display: flex;
+        justify-content: center;
+        align-items:center; }
+
+
+    
+    
+
+          
+.listadelibros{color: $Colortexto; text-align: center;}
+.iconex{font-size: 2rem; color: #5ab452; 
+    display: flex;
+  
+    justify-content: center;
+    align-items:center;
+transition: color 2s;
+transition:font-size 2s
+}
+.iconex:hover{color: #0ea700; font-size: 2.5rem;}
+.Listalibrosexcel {background-image: $gradiant;  }
+  
+  .listadelibros{text-decoration: $Colortexto; color: $Colortexto;}

@@ -1,0 +1,21 @@
+footer{background-image: linear-gradient(to left bottom, #989898, #a8a9a9, #b8babb, #c7cbcc, #d8dddc, #d9e7e1, #def1e2, #e8f9df, #e4fbd1, #e2fdc1, #e2feaf, #e4ff9d); }
+
+.futer{
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;}
+.grid{
+        
+    width: 100%; margin-top: auto;
+   
+    bottom: 0;}
+    .iconoig {font-size: 2.3rem;color: rgb(181, 35, 203); 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+    transition: color 3s;
+transition: font-size 1.5s; } 
+        
+        .iconoig:hover{font-size: 3rem;color: rgb(139, 5, 133);}

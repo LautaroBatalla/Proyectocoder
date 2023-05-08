@@ -1,0 +1,14 @@
+$Colortexto: rgb(0, 0, 0);
+$fuente: 'Titillium Web', sans-serif;
+$gradiant:  linear-gradient(to right, #000000, #382929, #6c4f46, #9f7c61, #cab07d, #cab07d, #cab07d, #cab07d, #9f7c61, #6c4f46, #382929, #000000);
+
+$map-flex:(
+  flex: flex,
+  row: row,
+  column: column,
+  space-around: space-around,
+  space-between: space-between,
+  space-evenly: space-evenly,
+  space-center: center,
+  aling-items-stretch: stretch,
+);
