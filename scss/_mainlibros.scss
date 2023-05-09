@@ -38,13 +38,8 @@ color: #15ff00;
 
           
 .listadelibros{color: $Colortexto; text-align: center;}
-.iconex{font-size: 2rem; color: #5ab452; 
-    display: flex;
-  
-    justify-content: center;
-    align-items:center;
-transition: color 2s;
-transition:font-size 2s
+.iconex{@extend .iconoig
+    ; color:#0ea700
 }
 .iconex:hover{color: #0ea700; font-size: 2.5rem;}
 .Listalibrosexcel {background-image: $gradiant;  }
