@@ -1,50 +1,58 @@
-.nosotroscontainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image:url(../assets/img/pexels-andrea-piacquadio-3779432.jpg)
+main{ background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+background-size: cover;
+;}
+.nosotros-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-image: url(../assets/img/pexels-andrea-piacquadio-3779432.jpg);
+  
+  .nosotros-container {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    overflow: hidden; /* Agrega un overflow oculto para evitar el desbordamiento */
   }
   
   .contenidonosotros {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    max-width: 1300px;
-    padding: 0 20px;
-    margin-bottom: 80px;
-    margin-top: 80px;
-    @media screen and (min-width: 992px) {margin-top: 100px; margin-bottom: 100px;
-  
-    }
-    @media screen and (min-width: 768px) and (max-width: 991px) {margin-top: 100px; margin-bottom: 100px;
- 
-    }
-    @media screen and (max-width:740px){margin-top: 100px; margin-bottom: 100px;
-    
-    } 
+    justify-content: center; /* Agrega centrado vertical */
+    text-align: center; /* Agrega centrado horizontal para el texto */
+    max-width: 900px;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
   }
-   
-    
-   
+  
   
   .imagennosotros {
     max-width: 100%;
     height: auto;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-margin-bottom: 50px;  
+    max-height: 300px;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+  
+  .textonosotros {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    max-width: 100%;
+    padding: 0 20px;
+    word-break: break-word;
+    color: rgb(254, 118, 157);
+    font-weight: bold;
+  }
 }
-  
-  .titulonosotros { color:   $Colortexto; }
-  .textonosotros {color: rgb(173, 114, 3); font-weight: bold; }
- 
-  
- 
+@media screen and (max-height: 600px) {
+  .contenidonosotros {
+    align-items: flex-start; /* Alinear elementos en la parte superior en dispositivos más pequeños */
+    justify-content: flex-start; /* Alinear elementos en la parte superior en dispositivos más pequeños */
+    padding-bottom: 20px; /* Añadir un espacio adicional en la parte inferior para evitar el desbordamiento */
+  }
+}
