@@ -100,6 +100,10 @@ main {
   font-weight: bold;
 }
 
+.titulo23 {
+  color: rgb(166, 109, 251);
+}
+
 @media screen and (max-width: 768px) {
   .image-container {
     flex-wrap: wrap;
@@ -112,14 +116,14 @@ main {
 }
 @media (max-width: 768px) {
   .image-container {
-    flex: 0 0 100%; /* Ocupa todo el ancho disponible en la versión móvil */
-    margin-right: 0; /* Elimina el margen derecho en la versión móvil */
+    flex: 0 0 100%;
+    margin-right: 0;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .description-container p {
-    font-size: 1.3rem; /* Reduce el tamaño de fuente en la versión móvil */
+    font-size: 1.3rem;
   }
 }
 body {
