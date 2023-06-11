@@ -6,7 +6,8 @@ color: #15ff00;
 }
 
 
-.mainlibros{background-image: $gradiant;
+.mainlibros{ background-image: linear-gradient(to right, #ffcee0, #ffc6d8, #ffc0d0, #ffb9c8, #ffb3c0, #ffacba, #ffa6b3, #ffa0ab, #ff99a3, #ff939b, #ff8c93, #ff869b);
+
          
     display: flex;
     flex-wrap: wrap;
@@ -26,7 +27,8 @@ color: #15ff00;
       
         @include flexbox (center,center,row); 
         
-       background-image: $gradiant;}
+        background-image: linear-gradient(to right, #ffcee0, #ffc6d8, #ffc0d0, #ffb9c8, #ffb3c0, #ffacba, #ffa6b3, #ffa0ab, #ff99a3, #ff939b, #ff8c93, #ff869b);
+  }
     
        .Titulo1 {font-size: 3rem;color: rgb(2, 0, 0);display: flex;
         justify-content: center;
@@ -42,6 +44,7 @@ color: #15ff00;
     ; color:#0ea700
 }
 .iconex:hover{color: #0ea700; font-size: 2.5rem;}
-.Listalibrosexcel {background-image: $gradiant;  }
+.Listalibrosexcel { background-image: linear-gradient(to right, #ffcee0, #ffc6d8, #ffc0d0, #ffb9c8, #ffb3c0, #ffacba, #ffa6b3, #ffa0ab, #ff99a3, #ff939b, #ff8c93, #ff869b);
+}  
   
   .listadelibros{text-decoration: $Colortexto; color: $Colortexto;}
